@@ -787,11 +787,12 @@ img {
   display: block;
 }
 
-.qualification__button.qualification__active {
+.qualification__button.qualification__active .text--tab{
   background-color: var(--first-color);
   border-radius: 50px;
   color: #fff;
   padding: 2px 15px;
+  font-size: 16px;
 }
 
 .text-left,
@@ -1584,8 +1585,9 @@ p {
 
 .projects--tabs{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 32px;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 15px;
+  place-items: center;
 }
 
 .home{

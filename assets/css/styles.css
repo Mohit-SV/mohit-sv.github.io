@@ -1587,3 +1587,8 @@ p {
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
 }
+
+.home{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}

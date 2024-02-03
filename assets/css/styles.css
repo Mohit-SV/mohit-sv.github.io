@@ -1423,6 +1423,9 @@ p {
     grid-template-columns: repeat(3, 1fr) !important;
     gap: 32px !important;
   }
+  .home{
+    margin-top: 0rem !important;
+  }
 }
 
 /* For large devices */

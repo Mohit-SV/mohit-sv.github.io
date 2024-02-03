@@ -294,7 +294,7 @@ img {
 }
 
 .home__blob {
-  width: 200px;
+  width: 330px;
   fill: var(--first-color);
 }
 
@@ -1275,6 +1275,14 @@ p {
   .projects--tabs{
     display: flex !important;
   }
+  .home__blob {
+    width: 200px;
+    fill: var(--first-color);
+  }
+  .home__blob-img {
+    width: 170px;
+    height: auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1586,6 +1594,6 @@ p {
 }
 
 .home{
-  padding-top: 4rem;
+  margin-top: -3rem;
   padding-bottom: 4rem;
 }

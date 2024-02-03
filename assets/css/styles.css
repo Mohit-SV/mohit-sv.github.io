@@ -599,6 +599,14 @@ img {
   overflow: hidden;
 }
 
+.skills__close {
+  transition: 0.3s;
+}
+
+.skills__open {
+  transition: 0.3s;
+}
+
 .skills__open .skills__list {
   height: max-content;
   margin-top: 1rem;
@@ -1274,7 +1282,7 @@ p {
     padding: 6rem 0 2rem 2.5rem;
   }
   .services_modal-content {
-    width: 450px;
+    width: 1fr;
   }
   .portfolio__img {
     width: 320px;

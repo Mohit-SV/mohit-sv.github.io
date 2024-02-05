@@ -764,11 +764,12 @@ p {
 }
 
 .services_modal-projects {
-  row-gap: 1rem;
+  row-gap: 0.5rem;
 }
 
 .services_modal-project {
   display: flex;
+  font-size: 0.85rem;
 }
 
 .services_modal-title {
@@ -1283,7 +1284,7 @@ p {
     padding: 6rem 0 2rem 2.5rem;
   }
   .services_modal-content {
-    width: 1fr;
+    width: 50rem !important;
   }
   .portfolio__img {
     width: 320px;
@@ -1504,4 +1505,50 @@ p {
 .home{
   margin-top: -2.5rem;
   padding-bottom: 5rem;
+}
+
+.popup-description-grid{
+  display: grid;
+  grid-template-columns: 0.35fr 0.65fr;
+  gap: 32px;
+}
+
+.popup-description-grid-ai{
+  display: grid;
+  grid-template-columns: 0.30fr 0.28fr 0.42fr;
+  gap: 1rem;
+}
+
+.popup-description-heading{
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.entity__title {
+  font-size: var(--h2-font-size);
+  color: var(--first-color);
+}
+
+.organization-title {
+  font-size: var(--h3-font-size) !important;
+  font-size: var(--smaller-font-size);
+}
+
+.organization-date {
+  font-size: var(--smaller-font-size);
+  color: var(--text-color);
+  padding-top: 0.4rem;
+}
+
+.popup-description{
+  padding-top: 1rem;
+  padding-left: 0.25rem;
+}
+
+.para-link{
+  color: var(--text-color);
+}
+
+.light-color{
+  color: var(--text-color-light);
 }

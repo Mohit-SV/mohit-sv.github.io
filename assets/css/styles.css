@@ -1284,7 +1284,7 @@ p {
     padding: 6rem 0 2rem 2.5rem;
   }
   .services_modal-content {
-    width: 50rem !important;
+    width: 58rem !important;
   }
   .portfolio__img {
     width: 320px;
@@ -1510,12 +1510,12 @@ p {
 .popup-description-grid{
   display: grid;
   grid-template-columns: 0.35fr 0.65fr;
-  gap: 32px;
+  gap: 1rem;
 }
 
 .popup-description-grid-ai{
   display: grid;
-  grid-template-columns: 0.30fr 0.28fr 0.42fr;
+  grid-template-columns: 0.26fr 0.28fr 0.46fr;
   gap: 1rem;
 }
 
@@ -1543,6 +1543,25 @@ p {
 .popup-description{
   padding-top: 1rem;
   padding-left: 0.25rem;
+}
+
+.popup-description-exp{
+  /* padding-top: 1rem; */
+  padding-left: 0.25rem;
+}
+
+.services_modal-exp{
+  font-size: 0.85rem;
+  padding-top: 1rem;
+  display: block;
+  margin-bottom: -0.5rem;
+}
+
+.services_modal-vu{
+  font-size: 0.85rem;
+  padding-top: 1rem;
+  margin-bottom: -1rem;
+  display: block;
 }
 
 .para-link{

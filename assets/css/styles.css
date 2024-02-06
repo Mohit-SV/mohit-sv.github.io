@@ -294,12 +294,13 @@ img {
 }
 
 .home__blob {
-  width: 300px;
+  width: 20rem;
   fill: var(--first-color);
+  margin-top: -1rem;
 }
 
 .home__blob-img {
-  width: 170px;
+  width: 11rem;
   height: auto;
 }
 
@@ -359,13 +360,14 @@ img {
 /*  */
 
 .home__scroll {
-  display: none;
+  display: block;
   margin: auto;
 }
 
 .home__scroll-button {
   color: var(--first-color);
   transition: 0.3s;
+  margin-left: 3rem;
 }
 
 .home__scroll-button:hover {
@@ -1187,6 +1189,7 @@ p {
   .home__blob {
     width: 200px;
     fill: var(--first-color);
+    margin-top: 0rem;
   }
   .home__blob-img {
     width: 170px;
@@ -1265,12 +1268,6 @@ p {
   }
   .home__blob {
     width: 270px;
-  }
-  .home__scroll {
-    display: block;
-  }
-  .home__scroll-button {
-    margin-left: 3rem;
   }
   .about__container {
     column-gap: 5rem;

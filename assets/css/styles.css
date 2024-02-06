@@ -761,6 +761,9 @@ p {
   background-color: var(--container-color);
   padding: 1.5rem;
   border-radius: 0.5rem;
+  max-height: 90vh;
+  overflow-y: hidden;
+  box-sizing: border-box;
 }
 
 .services_modal-projects {
@@ -1189,6 +1192,26 @@ p {
     width: 170px;
     height: auto;
   }
+  .popup-description-grid-ai{
+    display: grid !important;
+    grid-template-columns: 0.27fr 0.27fr 0.46fr !important;
+    gap: 1rem !important;
+  }
+  .popup-description-grid{
+    display: grid !important;
+    grid-template-columns: 0.35fr 0.65fr !important;
+    gap: 1rem !important;
+  }
+  .services_modal-content {
+    height: none;
+  }
+  .popup-description-heading{
+    padding-top: 0rem !important;
+  }
+  .popup-description{
+    padding-top: 1rem;
+    overflow-y: hidden !important;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1508,20 +1531,17 @@ p {
 }
 
 .popup-description-grid{
-  display: grid;
-  grid-template-columns: 0.35fr 0.65fr;
-  gap: 1rem;
+  display: block;
 }
 
 .popup-description-grid-ai{
-  display: grid;
-  grid-template-columns: 0.26fr 0.28fr 0.46fr;
-  gap: 1rem;
+  display: block;
 }
 
 .popup-description-heading{
   font-size: 1rem;
   margin-bottom: 0.5rem;
+  padding-top: 1rem;
 }
 
 .entity__title {
@@ -1541,13 +1561,15 @@ p {
 }
 
 .popup-description{
-  padding-top: 1rem;
   padding-left: 0.25rem;
+  overflow-y: auto;
+  box-sizing: border-box;
 }
 
 .popup-description-exp{
-  /* padding-top: 1rem; */
   padding-left: 0.25rem;
+  overflow-y: auto;
+  box-sizing: border-box;
 }
 
 .services_modal-exp{

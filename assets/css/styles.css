@@ -297,7 +297,7 @@ img {
 .home__blob {
   width: 22rem;
   fill: var(--first-color);
-  /* margin-top: -0.5rem; */
+  margin-left: -1rem;
 }
 
 .home__blob-img {
@@ -361,15 +361,13 @@ img {
 /*  */
 
 .home__scroll {
-  display: block;
-  margin: auto;
+  display: none;
 }
 
 .home__scroll-button {
   color: var(--first-color);
   transition: 0.3s;
   margin-top: 0.5rem;
-  padding-bottom: 1rem;
 }
 
 .home__scroll-button:hover {
@@ -1237,6 +1235,10 @@ p {
     top: 0;
     bottom: initial;
   }
+  .home__scroll {
+    display: block;
+    margin: auto;
+  }
   .header,
   .main,
   .footer__container {
@@ -1564,6 +1566,7 @@ p {
   padding-left: 0.25rem;
   overflow-y: auto;
   box-sizing: border-box;
+  max-height: 30rem;
 }
 
 .popup-description-exp{
@@ -1592,4 +1595,9 @@ p {
 
 .light-color{
   color: var(--text-color-light);
+}
+
+.footer__instruction{
+  font-size: 1rem;
+  padding-left: 10px;
 }

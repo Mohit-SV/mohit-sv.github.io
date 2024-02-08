@@ -519,6 +519,7 @@ img {
   align-items: center;
   /* margin-bottom: var(--mb-2-5); */
   cursor: pointer;
+  margin-bottom: 1.2rem;
 }
 
 /* .skills__header.faqs--header {
@@ -579,12 +580,13 @@ img {
 .skills__number{
   font-size: var(--smaller-font-size);
   color: var(--first-color);
+  white-space: nowrap;
+  margin-left: 0.25rem;
 }
 
 .skills__bar,
 .skills__percentage {
   height: 0.1rem;
-  border-radius: 0.25rem;
 }
 
 .skills__bar {
@@ -1195,6 +1197,9 @@ p {
     width: 170px;
     height: auto;
   }
+  .services_modal-vu{
+    padding-top: 1rem;
+  }
   .popup-description-grid-ai{
     display: grid !important;
     grid-template-columns: 0.27fr 0.27fr 0.46fr !important;
@@ -1212,8 +1217,10 @@ p {
     padding-top: 0rem !important;
   }
   .popup-description{
-    padding-top: 1rem;
     overflow-y: hidden !important;
+  }
+  .popup-description-grid-3{
+    padding-bottom: none !important;
   }
 }
 
@@ -1543,7 +1550,7 @@ p {
 .popup-description-heading{
   font-size: 1rem;
   margin-bottom: 0.5rem;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
 }
 
 .entity__title {
@@ -1584,8 +1591,8 @@ p {
 
 .services_modal-vu{
   font-size: 0.85rem;
-  padding-top: 1rem;
-  margin-bottom: -1rem;
+  /* padding-top: 1rem; */
+  /* margin-bottom: -1rem; */
   display: block;
 }
 
@@ -1599,5 +1606,12 @@ p {
 
 .footer__instruction{
   font-size: 1rem;
-  padding-left: 10px;
+}
+
+.popup-description-grid-2{
+  padding-bottom: 1rem;
+}
+
+.popup-description-grid-3{
+  padding-bottom: 1rem;
 }

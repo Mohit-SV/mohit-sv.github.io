@@ -556,7 +556,7 @@ img {
 
 .skills__list {
   row-gap: 0.65rem;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   padding-left: 2.7rem;
   padding-right: 1rem;
 }
@@ -603,17 +603,10 @@ img {
   overflow: hidden;
 }
 
-/* .skills__close {
-  transition: 0.3s;
-}
-
-.skills__open {
-  transition: 0.3s;
-} */
-
 .skills__open .skills__list {
   height: max-content;
   margin-top: 1rem;
+  padding-top: 0.5rem !important;
 }
 
 .skills__open .skills__arrow {
@@ -1281,9 +1274,9 @@ p {
   .home__blob {
     width: 270px;
   }
-  .about__container {
-    column-gap: 5rem;
-  }
+  /* .about__container {
+    column-gap: 3rem;
+  } */
   .about__img {
     width: 350px;
   }

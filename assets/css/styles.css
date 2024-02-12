@@ -608,6 +608,7 @@ img {
   color: var(--first-color);
   white-space: nowrap;
   margin-left: 0.25rem;
+  align-items: left;
 }
 
 .skills__bar,

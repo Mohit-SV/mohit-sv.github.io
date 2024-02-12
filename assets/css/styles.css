@@ -526,6 +526,7 @@ img {
 .about__buttons {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 1.5rem;
 }
 
 .bmc__logo {
@@ -713,6 +714,7 @@ img {
   border-radius: 50px;
   color: #fff;
   padding: 2px 15px;
+  border: 1px solid transparent;
   /* font-size: 16px; */
 }
 
@@ -933,7 +935,12 @@ p {
 .testimonial__description {
   padding-left: 0.5rem;
   padding-bottom: 0.5rem;
+  font-size: 0.85rem;
 }
+
+/* .pad__bottom-small{
+  padding-bottom: 0.5rem;
+} */
 
 .testimonial__icon-star {
   color: var(--first-color);
@@ -1341,7 +1348,7 @@ p {
   }
   .project__container {
     background-color: var(--first-color-second);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     padding: 2rem 2.5rem 0;
     grid-template-columns: 1fr max-content;
     column-gap: 3rem;
@@ -1461,6 +1468,7 @@ p {
   /* background-color: #8abcdd; */
   /* padding: 20px; */
   border-style: solid;
+  border: 1px solid transparent;
   padding-left : 12px;
   padding-right : 12px;
   /* padding-bottom : 15px; */
@@ -1591,24 +1599,29 @@ p {
   max-height: 30rem;
 }
 
-.popup-description-exp{
-  padding-left: 0.25rem;
-  overflow-y: auto;
-  box-sizing: border-box;
-}
-
 .services_modal-exp{
   font-size: 0.85rem;
-  padding-top: 1rem;
   display: block;
   margin-bottom: -0.5rem;
 }
 
 .services_modal-vu{
   font-size: 0.85rem;
-  /* padding-top: 1rem; */
-  /* margin-bottom: -1rem; */
   display: block;
+}
+
+.services_modal-end{
+  display: block;
+  padding-top: 1rem;
+}
+
+.side-heading{
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
+}
+
+.font-small{
+  font-size: 0.85rem;
 }
 
 .para-link{
@@ -1629,4 +1642,7 @@ p {
 
 .popup-description-grid-3{
   padding-bottom: 1rem;
+}
+.pad-top{
+  margin-top: 3rem;
 }

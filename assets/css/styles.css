@@ -933,7 +933,12 @@ p {
 .testimonial__description {
   padding-left: 0.5rem;
   padding-bottom: 0.5rem;
+  font-size: 0.85rem;
 }
+
+/* .pad__bottom-small{
+  padding-bottom: 0.5rem;
+} */
 
 .testimonial__icon-star {
   color: var(--first-color);

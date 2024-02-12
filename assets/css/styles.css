@@ -1346,7 +1346,7 @@ p {
   }
   .project__container {
     background-color: var(--first-color-second);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     padding: 2rem 2.5rem 0;
     grid-template-columns: 1fr max-content;
     column-gap: 3rem;

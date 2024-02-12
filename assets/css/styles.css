@@ -334,6 +334,13 @@ img {
   margin-bottom: var(--mb-0-75);
 }
 
+.home__greeting{
+  color: var(--text-color-light);
+  font-size: 0.85rem;
+  margin-bottom: 0.35rem;
+  font-weight: 100;
+}
+
 /*  */
 .typewrite > .wrap {
   border-right: 0.08em solid var(--text-color);
@@ -468,19 +475,42 @@ img {
 
 .about__description {
   text-align: center;
-  margin-bottom: var(--mb-2-5);
 }
 
 .about__info {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: var(--mb-2-5);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.about__pitch{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  box-shadow: 0 0px 4px var(--text-color-light);
+}
+
+.about__pitch_para{
+  padding-top: 0.35rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .about__info-title {
   font-size: var(--h2-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
+}
+
+.about__instruction{
+  display: block;
+  font-size: var(--small-font-size);
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
 }
 
 .about__info-name {
@@ -495,11 +525,7 @@ img {
 
 .about__buttons {
   display: flex;
-  justify-content: center;
-}
-
-.home__donlinks {
-  margin-top: var(--mb-2);
+  justify-content: space-evenly;
 }
 
 .bmc__logo {
@@ -682,10 +708,11 @@ img {
 
 .qualification__button.qualification__active .text--tab{
   background-color: var(--first-color);
+  border-style: solid;
   border-radius: 50px;
   color: #fff;
   padding: 2px 15px;
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 
 .text-left,
@@ -697,20 +724,6 @@ p {
 .projects__container {
   gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
-}
-
-.projects__content {
-  position: relative;
-  background-color: var(--container-color);
-  padding: 3.5rem 0.5rem 1.25rem 1.5rem;
-  border-radius: 0.25rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-  transition: 0.3s;
-  overflow: hidden;
-}
-
-.projects__content:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .projects__icon {
@@ -1283,11 +1296,13 @@ p {
   .about__description {
     text-align: initial;
   }
-  /* .about__info {
-    justify-content: space-between;
-  } */
+  .about__info {
+    justify-content: center;
+    gap: 8rem;
+  }
   .about__buttons {
     justify-content: center;
+    gap: 3rem;
   }
   .qualification__tabs {
     justify-content: center;
@@ -1427,7 +1442,7 @@ p {
 }
 .skills__open {
   border-style: solid;
-  box-shadow: 0 0px 10px var(--text-color-light);
+  box-shadow: 0 0px 4px var(--text-color-light);
 }
 
 .skills__content:hover {
@@ -1444,15 +1459,21 @@ p {
 .grid-item {
   /* background-color: #8abcdd; */
   /* padding: 20px; */
+  border-style: solid;
   padding-left : 12px;
   padding-right : 12px;
   /* padding-bottom : 15px; */
   text-align: center;
   color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0px 10px var(--text-color-light);
+  box-shadow: 0 0px 4px var(--text-color-light);
   display: flex;
   flex-direction: column;
+}
+
+.grid-item:hover {
+  border-style: solid;
+  box-shadow: 0 0px 10px var(--text-color-light);
 }
 
 .grid-image {

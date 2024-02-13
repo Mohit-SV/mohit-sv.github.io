@@ -1,5 +1,5 @@
 # mohit-sv.github.io
-Hello! This is Venkat Mohit. Please take a look at my profile shown on the website and let me know if you are interested in hiring me or collaborating with me.
+Hello! This is Venkat Mohit. Have a look at my profile shown on the website and reach me if you are interested in hiring me or collaborating with me.
 
 ## Website link
 https://mohit-sv.github.io/

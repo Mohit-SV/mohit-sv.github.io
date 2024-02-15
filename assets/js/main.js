@@ -1,15 +1,3 @@
-/*===== LOADING PAGE =====*/
-
-function hideLoader( ){
-    document.querySelector( 'div.loader-fullscreen-wrapper' ).style.display = 'none';
-}
-
-function showLoader( ){
-    document.querySelector( 'div.loader-fullscreen-wrapper' ).style.display = 'initial';
-}
-
-window.addEventListener( 'load',hideLoader );
-
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
     navToggle = document.getElementById('nav-toggle'),

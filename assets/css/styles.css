@@ -715,7 +715,16 @@ img {
   color: #fff;
   padding: 2px 15px;
   border: 1px solid transparent;
-  /* font-size: 16px; */
+  font-size: 16px;
+}
+
+.qualification__button .text--tab{
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 50px;
+  padding: 2px 15px;
+  border: 1px solid transparent;
+  font-size: 16px;
 }
 
 .text-left,
@@ -1199,6 +1208,13 @@ p {
   .span-2 {
     grid-column: span 2;
   }
+  .qualification__button.qualification__active .text--tab{
+    font-size: 18px !important;
+  }
+  
+  .qualification__button .text--tab{
+    font-size: 18px !important;
+  }
   .projects--tabs{
     display: flex !important;
   }
@@ -1494,7 +1510,7 @@ p {
 }
 
 .task__category{
-  font-size: 12px !important;
+  font-size: 0.6rem !important;
   margin-top: 10px;
   color: var(--text-color);
 }

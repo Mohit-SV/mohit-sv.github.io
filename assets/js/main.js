@@ -1,3 +1,32 @@
+// document.addEventListener("DOMContentLoaded", function() {
+//     // When the DOM content is fully loaded
+//     var loadingOverlays = document.querySelectorAll('.loading-overlay');
+//     var actualBody = document.querySelector('.actual-body');
+  
+//     // Remove the loading overlays and show the actual body content
+//     for (var i = 0; i < loadingOverlays.length; i++) {
+//       loadingOverlays[i].style.display = 'none';
+//     }
+//     actualBody.style.display = 'block';
+//   });  
+
+document.addEventListener("DOMContentLoaded", function() {
+    // When the DOM content is fully loaded
+    var loadingOverlays = document.querySelectorAll('.loading-overlay');
+    var actualBody = document.querySelector('.actual-body');
+
+    // Hide the actual body content initially
+    actualBody.style.display = 'none';
+
+    // Set a timeout to remove the loading overlays after 10 seconds
+    setTimeout(function() {
+        for (var i = 0; i < loadingOverlays.length; i++) {
+            loadingOverlays[i].style.display = 'none';
+        }
+        actualBody.style.display = 'block'; // Show the actual body content
+    }, 500); // 10 seconds delay (10000 milliseconds)
+});
+
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
     navToggle = document.getElementById('nav-toggle'),
@@ -62,7 +91,7 @@ TxtType.prototype.tick = function() {
     }, delta);
 };
 
-window.onload = function() {
+window.onload = setTimeout(function() {
     var elements = document.getElementsByClassName('typewrite');
     for (var i=0; i<elements.length; i++) {
         var toRotate = elements[i].getAttribute('data-type');
@@ -76,7 +105,7 @@ window.onload = function() {
     css.type = "text/css";
     css.innerHTML = ".typewrite > .wrap { border-right: 0.1em solid var(--text-color)}";
     document.body.appendChild(css);
-};
+}, 1200);
 
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll('.nav__link')

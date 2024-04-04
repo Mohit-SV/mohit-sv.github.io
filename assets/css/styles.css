@@ -297,7 +297,7 @@ img {
 .home__blob {
   width: 22rem;
   fill: var(--first-color);
-  margin-left: -1rem;
+  margin-left: 0.5rem;
 }
 
 .home__blob-img {
@@ -1219,13 +1219,14 @@ p {
     display: flex !important;
   }
   .home__blob {
-    width: 200px;
+    /* width: 200px; */
     fill: var(--first-color);
     margin-top: 0rem;
   }
   .home__blob-img {
-    width: 170px;
+    /* width: 180px; */
     height: auto;
+    align-items: center;
   }
   .services_modal-vu{
     padding-top: 1rem;

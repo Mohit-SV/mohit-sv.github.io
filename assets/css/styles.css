@@ -297,7 +297,7 @@ img {
 .home__blob {
   width: 22rem;
   fill: var(--first-color);
-  margin-left: 0.5rem;
+  margin-left: 0rem;
 }
 
 .home__blob-img {

@@ -1065,6 +1065,10 @@ p {
   color: var(--first-color-lighter);
 } */
 
+.qr_share{
+  max-width: 10rem;
+}
+
 .footer__copy {
   font-size: var(--smaller-font-size);
   text-align: center !important;
@@ -1211,7 +1215,9 @@ p {
   .qualification__button.qualification__active .text--tab{
     font-size: 18px !important;
   }
-  
+  .qr_share{
+    max-width: 100% !important;
+  }
   .qualification__button .text--tab{
     font-size: 18px !important;
   }

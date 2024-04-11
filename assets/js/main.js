@@ -1,3 +1,5 @@
+/*==================== LOADER ====================*/
+
 // document.addEventListener("DOMContentLoaded", function() {
 //     // When the DOM content is fully loaded
 //     var loadingOverlays = document.querySelectorAll('.loading-overlay');
@@ -26,6 +28,16 @@ document.addEventListener("DOMContentLoaded", function() {
         actualBody.style.display = 'block'; // Show the actual body content
     }, 500); // 10 seconds delay (10000 milliseconds)
 });
+
+/*==================== COPY TEXT BUTTON ====================*/
+
+function copyText(button) { 
+    /* Copy text into clipboard */
+    navigator.clipboard.writeText("mohit.bits14@gmail.com");
+
+    /* Change button text */
+    button.innerHTML = "Email ID Copied!";
+}
 
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),

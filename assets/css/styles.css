@@ -1136,6 +1136,10 @@ p {
   background-color: var(--text-color-light);
 }
 
+.bottom-tabs {
+  display: none !important;
+}
+
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px) {
@@ -1363,6 +1367,31 @@ p {
   .projects__icon {
     font-size: 2rem;
   }
+
+  .bottom-tabs {
+    display: block;
+    margin-top: var(--mb-2);
+    text-align: center;
+  }
+  
+  .bottom-tabs .qualification__button {
+    font-size: var(--smaller-font-size);
+    color: var(--text-color);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .bottom-tabs .qualification__button:hover{
+    text-decoration: underline
+  }
+  .bottom-tabs .qualification__button.qualification__active {
+    color: var(--first-color);
+  }
+  
+  .bottom-tabs .qualification__button:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+
   .projects__content {
     padding: 6rem 0 2rem 2.5rem;
   }
@@ -1405,8 +1434,8 @@ p {
     display: flex;
     justify-self: center;
   }
-  .footer__copy {
-    margin-top: 1.5rem;
+  .footer__copy1 {
+    margin-top: 1.5rem !important;
   }
   .projects--grid {
     display: grid !important;
